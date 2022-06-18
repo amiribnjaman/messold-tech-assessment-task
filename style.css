@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+.navtop{
+    text-align: center;
+    background: #E85992;
+    color: #fff;
+    padding: 5px 0;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+nav{
+    max-width: 95%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left, ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-left: 20px;
+}
+
+ul li{
+    padding: 0 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #313030;
+}
+
+.nav-right li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-right li p{
+    font-size: 11px;
+    padding-top: 5px;
+    text-transform: uppercase;
+}
+
+/* banner section */
+.banner-section{
+    width: 100%;
+    height: 100%;
+}
+.banner-section img{
+    width: 100%;
+}
+
+/* Sample product section */
+.sample-pro{
+    width: 95%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+.sample-pro .product{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.sample-pro .product p{
+    font-size: 11px;
+    color: #282828;
+    margin-top: 5px;
+}
+.sample-pro .product img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.sample-pro .product img:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+/* insane-section */
+.insane-section{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.insane-section .top{
+    display: flex;
+    justify-content: space-between;
+}
+.insane-section .top h4{
+    font-weight: 300;
+}
+.insane-section .top button{
+    padding: 8px 15px;
+    background: #D3134F;
+    border: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.insane-products{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+
+}
+.insane-products .product{
+    height: 200px;
+}
+.insane-products .product img{
+    width: 100%;
+    height: 90%;
+}
+.insane-products .product h5{
+    color: #282828;
+    font-size: 13px;
+}
+.insane-products button{
+    width: 100%;
+    background: #D3134F;
+    border: 0;
+    color: #fff;
+    padding: 6px 0;
+    margin-top: 3px;
+}
